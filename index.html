@@ -69,6 +69,7 @@
     .project {
       background: rgb(255, 255, 255);
       box-shadow: 0 3rem 6rem 1rem rgba(0, 0, 0, 0.25);
+      position: relative;
     }
 
     .project__hero {
@@ -114,6 +115,9 @@
       text-align: center;
       word-spacing: 1px;
       margin-bottom: 0rem;
+      bottom: 0px;
+      position: absolute;
+      width: 100%;
     }
 
     .project__detail {
@@ -158,6 +162,10 @@
       font-size: 2rem;
       margin-left: 1rem;
     }
+    
+    .blank {
+      height: 9rem;
+    }
   </style>
 </head>
 
@@ -177,6 +185,7 @@
       <p class="project__detail"><span class="emoji-left">🖥</span>A RESTful app that users can sign in/log in/out as
         user or guide, book tours, and purchase the tours online.</p>
       <p class="project__detail"><span class="emoji-left">🐉</span>node.js, express, mongoDB, mongoose</p>
+      <div class="blank"></div>
       <div class="project__footer">
         <a href="https://natural-tour-project.herokuapp.com/" class="project__link">Check it out <span
             class="emoji-right">👉</span></a>
@@ -190,6 +199,7 @@
       <p class="project__detail"><span class="emoji-left">🖥</span>A website helps customers search for thousands of
         recipes and find best food for them.</p>
       <p class="project__detail"><span class="emoji-left">🐉</span>node.js, webpack, jquery, express, ajax</p>
+      <div class="blank"></div>
       <div class="project__footer">
         <a href="https://food-forkify.herokuapp.com/" class="project__link">Check it out <span
             class="emoji-right">👉</span></a>
@@ -203,6 +213,7 @@
       <p class="project__detail"><span class="emoji-left">🖥</span>A vitual web-store that customers can view and
         purchase the computer and see the details.</p>
       <p class="project__detail"><span class="emoji-left">🐉</span>node.js</p>
+      <div class="blank"></div>
       <div class="project__footer">
         <a href="https://store-of-laptop.herokuapp.com/" class="project__link">Check it out <span
             class="emoji-right">👉</span></a>
